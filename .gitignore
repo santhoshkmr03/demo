@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# PyTorch checkpoints (exceed GitHub 100MB limit)
+outputs/checkpoints/*.pt
+*.pt
+*.pth
+
+# Large Dataset Archives & Raw Data (kept locally, not committed)
+data/raw/
+*.zip
+*.rar
+*.tar
+*.tar.gz
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+.system_generated/
+
+# Frontend dependencies & build artifacts
+node_modules/
+dist/
+.env
+.env.local
+!.env.example
+
+# IDE / tool caches
+.opencode/
+memory/
+wiki/
+rag_db/
+skills/
+opencode-rag.json
+opencode-rag.log
